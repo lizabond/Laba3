@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторна №3 – JavaScript DOM</title>
+
+    <style>
+        body {
+            transition: background-color 0.5s;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #sliderImage {
+            width: 400px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        td {
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            border: 1px solid #000;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Лабораторна робота №3 — Використання DOM засобами мови JavaScript</h1>
+
+    <img id="sliderImage" src="" alt="Slider Image">
+
+    <h2>Генерація таблиці 10×10</h2>
+
+    Мінімальне число:
+    <input type="number" id="minVal" value="1">
+
+    Максимальне число:
+    <input type="number" id="maxVal" value="100">
+
+    <button onclick="generateTable()">Створити таблицю</button>
+
+    <div id="tableContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
