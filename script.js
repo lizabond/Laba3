@@ -8,10 +8,10 @@ userInterval = Number(userInterval) * 1000;
 // 2. Масив  зображень
 // -------------------------
 let images = [
-    "Image/1.jfif",
-    "Image/2.jfif",
-    "Image/3.jfif",
-    "Image/4.jfif"
+    "Image/1.jpg",
+    "Image/2.jpg",
+    "Image/3.jpg",
+    "Image/4.jpg"
 ];
 
 let index = 0;
