@@ -7,6 +7,7 @@ userInterval = Number(userInterval) * 1000;
 // -------------------------
 // 2. Масив  зображень
 // -------------------------
+
 let images = [
     "img/1.jpg",
     "img/2.jpg",
